@@ -1,1 +1,298 @@
-const _0x3fad38=_0x1cbe;(function(_0x4213ee,_0x38602a){const _0x1a5ac4=_0x1cbe,_0x194efb=_0x4213ee();while(!![]){try{const _0xe1be83=parseInt(_0x1a5ac4(0x242))/(0x22ec+-0x10d0+0x609*-0x3)*(-parseInt(_0x1a5ac4(0x23e))/(0x1*0x1f01+-0x1ac3+-0x4*0x10f))+-parseInt(_0x1a5ac4(0x1e2))/(-0x5c5+-0xc64+0x122c)+parseInt(_0x1a5ac4(0x1f4))/(-0x10a7+-0x1*-0xef9+0x7*0x3e)*(parseInt(_0x1a5ac4(0x225))/(-0x824*0x3+0x14af+0x1a*0x25))+parseInt(_0x1a5ac4(0x24a))/(0x1fc4+-0x23be+-0x8*-0x80)*(parseInt(_0x1a5ac4(0x233))/(0x2*-0xf2+0x1742+-0x1557))+parseInt(_0x1a5ac4(0x218))/(0x17ce+-0x1*-0x1af+-0x1975)*(parseInt(_0x1a5ac4(0x1f5))/(0x1*0x184d+-0x187b+0x37))+-parseInt(_0x1a5ac4(0x21d))/(0x2637+0x5*0x1af+-0x2e98)*(-parseInt(_0x1a5ac4(0x1ef))/(-0x15*0x11f+0x153e+0x3c*0xa))+parseInt(_0x1a5ac4(0x20c))/(-0x633+-0xc*0x10f+0x12f3)*(parseInt(_0x1a5ac4(0x20b))/(0xe*0x3f+0x653*0x1+0x2*-0x4dc));if(_0xe1be83===_0x38602a)break;else _0x194efb['push'](_0x194efb['shift']());}catch(_0x7cc0b7){_0x194efb['push'](_0x194efb['shift']());}}}(_0x380d,-0xe41*-0x47+-0x5b96d+0x779*0x14f));function _0x1cbe(_0x2f7933,_0x581258){const _0x1d95c5=_0x380d();return _0x1cbe=function(_0x21550e,_0x324a18){_0x21550e=_0x21550e-(-0x23*-0x4d+0xfa5+0x1852*-0x1);let _0x181c9f=_0x1d95c5[_0x21550e];return _0x181c9f;},_0x1cbe(_0x2f7933,_0x581258);}const axios=require(_0x3fad38(0x238)),{createReadStream,unlinkSync}=require('fs'),{resolve}=require(_0x3fad38(0x210));module[_0x3fad38(0x245)]={'config':{'name':_0x3fad38(0x249),'version':_0x3fad38(0x1e9),'author':_0x3fad38(0x241)+_0x3fad38(0x232),'countDown':0x5,'role':0x2,'shortDescription':{'vi':_0x3fad38(0x201)+_0x3fad38(0x1f0)+_0x3fad38(0x222)+_0x3fad38(0x1f1),'en':_0x3fad38(0x22b)+_0x3fad38(0x1ea)+_0x3fad38(0x240)+_0x3fad38(0x1da)},'longDescription':{'vi':_0x3fad38(0x201)+_0x3fad38(0x1f0)+_0x3fad38(0x222)+_0x3fad38(0x213)+_0x3fad38(0x1fd),'en':_0x3fad38(0x22b)+_0x3fad38(0x1ea)+_0x3fad38(0x240)+_0x3fad38(0x236)+_0x3fad38(0x23c)+_0x3fad38(0x1f6)},'category':_0x3fad38(0x221)},'onStart':async function({api:_0x21ff69,event:_0x3145eb,args:_0x25ec2f}){const _0x39bde9=_0x3fad38,_0x32bb75={'wvRuz':_0x39bde9(0x21c)+_0x39bde9(0x1f7)+_0x39bde9(0x219)+_0x39bde9(0x234)+_0x39bde9(0x22f)+_0x39bde9(0x20e)+_0x39bde9(0x204),'DGswi':function(_0x2832d5,_0x5708e8,_0x443db6,_0x110b81){return _0x2832d5(_0x5708e8,_0x443db6,_0x110b81);},'CDXgH':_0x39bde9(0x1e0),'ZBvEG':function(_0x163292,_0x72c25e){return _0x163292(_0x72c25e);},'MxuHP':function(_0x5e79f3,_0x39c9f2){return _0x5e79f3(_0x39c9f2);},'MebfJ':_0x39bde9(0x1ed)+_0x39bde9(0x1de)+_0x39bde9(0x22c),'rBVgs':function(_0x3eef88,_0x3fc9a7){return _0x3eef88!==_0x3fc9a7;},'baQUg':_0x39bde9(0x231)+_0x39bde9(0x216),'Teosm':_0x39bde9(0x1db),'FgHTG':function(_0x465986,_0x3c9454){return _0x465986>=_0x3c9454;},'UsKOU':function(_0x57c8c8,_0x5dd409){return _0x57c8c8!==_0x5dd409;},'MCzGO':function(_0x21ca2d,_0x5173ed){return _0x21ca2d(_0x5173ed);},'FiQJR':function(_0x2c79c4,_0xdc940b){return _0x2c79c4>_0xdc940b;},'ARRoj':_0x39bde9(0x235)+_0x39bde9(0x243)+_0x39bde9(0x1dd)+_0x39bde9(0x1fc)+_0x39bde9(0x20f)+_0x39bde9(0x209)};if(_0x32bb75[_0x39bde9(0x207)](this[_0x39bde9(0x1f9)][_0x39bde9(0x20a)],_0x32bb75[_0x39bde9(0x224)]))return _0x21ff69[_0x39bde9(0x248)+'e'](_0x39bde9(0x1ff)+_0x39bde9(0x1fb),_0x3145eb[_0x39bde9(0x1fa)],_0x3145eb[_0x39bde9(0x1f2)]);const _0x4748ad=await _0x21ff69[_0x39bde9(0x1ee)+_0x39bde9(0x21f)](-0x1*0xfb5+0x1b43+0x2*-0x595,null,[_0x32bb75[_0x39bde9(0x244)]]);let _0x40227e=-0x769*-0x1+-0x2115+-0x4*-0x66b;const _0x501080=_0x25ec2f[_0x39bde9(0x1e4)]('\x20');async function _0x13d5ec(_0x101581){const _0x107c70=_0x39bde9;try{await _0x21ff69[_0x107c70(0x248)+'e']({'body':_0x107c70(0x229)+_0x107c70(0x227)+_0x107c70(0x22d)+_0x107c70(0x1e1)+_0x107c70(0x1e1)+_0x107c70(0x1df)+_0x107c70(0x1f8)+_0x107c70(0x23d)+_0x501080+(_0x107c70(0x22a)+_0x107c70(0x1e1)+_0x107c70(0x1e1)+_0x107c70(0x202)+_0x107c70(0x212)+_0x107c70(0x205)+_0x107c70(0x1e5)+_0x107c70(0x1e1)+_0x107c70(0x1e1)+_0x107c70(0x239)+_0x107c70(0x220)+_0x107c70(0x211)+_0x107c70(0x1e1)+_0x107c70(0x1e1)+_0x107c70(0x208)),'attachment':await global[_0x107c70(0x1f3)][_0x107c70(0x1e6)+_0x107c70(0x23b)](_0x32bb75[_0x107c70(0x237)])},_0x101581[_0x107c70(0x1fa)]),_0x40227e++;const _0x79924=''+_0x501080,_0x11025e='bn',_0x3889a8=_0x32bb75[_0x107c70(0x246)](resolve,__dirname,_0x32bb75[_0x107c70(0x200)],_0x101581[_0x107c70(0x1fa)]+(_0x107c70(0x23f)+'3'));await global[_0x107c70(0x1f3)][_0x107c70(0x21e)+'le'](_0x107c70(0x21a)+_0x107c70(0x247)+_0x107c70(0x1fe)+_0x107c70(0x23a)+_0x107c70(0x1dc)+_0x107c70(0x223)+_0x32bb75[_0x107c70(0x214)](encodeURIComponent,msg)+(_0x107c70(0x206)+_0x107c70(0x1eb)),_0x3889a8),_0x21ff69[_0x107c70(0x248)+'e']({'attachment':_0x32bb75[_0x107c70(0x226)](createReadStream,_0x3889a8)},_0x101581[_0x107c70(0x1fa)],()=>unlinkSync(_0x3889a8));}catch(_0x5aff49){console[_0x107c70(0x217)](_0x32bb75[_0x107c70(0x228)],_0x5aff49);}}for(const _0xf70e8c of _0x4748ad){if(_0x32bb75[_0x39bde9(0x1e8)](_0x40227e,-0xea7+0x5*0x2cf+0xb0))break;_0xf70e8c[_0x39bde9(0x1ec)]&&_0x32bb75[_0x39bde9(0x215)](_0xf70e8c[_0x39bde9(0x1e7)],_0xf70e8c[_0x39bde9(0x1fa)])&&_0x32bb75[_0x39bde9(0x215)](_0xf70e8c[_0x39bde9(0x1fa)],_0x3145eb[_0x39bde9(0x1fa)])&&await _0x32bb75[_0x39bde9(0x20d)](_0x13d5ec,_0xf70e8c);}_0x32bb75[_0x39bde9(0x22e)](_0x40227e,0x120f+-0x2546+-0x1*-0x1337)?_0x21ff69[_0x39bde9(0x248)+'e'](_0x39bde9(0x1e3)+_0x39bde9(0x203)+_0x39bde9(0x230),_0x3145eb[_0x39bde9(0x1fa)]):_0x21ff69[_0x39bde9(0x248)+'e'](_0x32bb75[_0x39bde9(0x21b)],_0x3145eb[_0x39bde9(0x1fa)]);}};function _0x380d(){const _0x4e9ab9=['Badol\x20erro','CDXgH','Tạo\x20và\x20gửi','━━\x0a\x0a╚⏤⏤⏤╗❮','ে\x20মেসেস\x20সে','c7zv','𝐓𝐄𝐊❯❯╔⏤⏤⏤╝','&tl=bn&cli','rBVgs','━━━','age\x20to.','author','13duhyry','6913236gWuOnM','MCzGO','yA2W4_mUpe','d\x20the\x20mess','path','97\x0a━━━━━━━','❮𝐎𝐖𝐍𝐄𝐑-𝐂𝐎𝐍','hóm\x20do\x20bạn','ZBvEG','UsKOU','HAN','error','5128UEIFdH','.com/uc?id','https://tr','ARRoj','https://dr','61300pbhBjx','downloadFi','ist','0013812667','box\x20chat','\x20đến\x20các\x20n','8&q=','baQUg','5AoPvic','MxuHP','𝐈𝐍-𝐍𝐎𝐓𝐈𝐒❯❯','MebfJ','╔⏤⏤⏤╝❮❮𝐀𝐃𝐌','\x0a\x0a━━━━━━━━','Create\x20and','age:','╚⏤⏤⏤╗\x0a━━━━','FiQJR','Vi-cI1hyoO','ন্ড\x20ডান❤.','RB-BADOL-K','𝐁𝟒𝐃𝟗𝐋★','1705123pzurlY','=1X-rlSqgt','›\x20No\x20eligi','o\x20groups\x20t','wvRuz','axios','━\x0am.me/100','ranslate_t','romURL','hat\x20you\x20ma','𝐒𝐄𝐆𝐄:\x0a╰┈➤\x20','24238ogoKlW','_female.mp','fication\x20t','★𝐌𝟗𝐇𝟒𝐌𝐌𝟒𝐃-','61ecbFdU','ble\x20group\x20','Teosm','exports','DGswi','anslate.go','sendMessag','new','24lqpQoK','o\x20groups','INBOX','ts?ie=UTF-','threads\x20fo','ing\x20a\x20mess','━━━━━━\x0a\x0a╭┈','cache','━━━━━━━━━━','2359386rJNwxq','›❤সব\x20গ্রুপ','join','\x0a━━━━━━━━━','getStreamF','name','FgHTG','1.4','\x20send\x20noti','ent=tw-ob','isGroup','Error\x20send','getThreadL','473KbFziu','\x20thông\x20báo','hóm','messageID','utils','361236MGndbF','2052AETqjR','nage','ive.google','\x20❒\x20💬\x20|\x20𝐌𝐄𝐒','config','threadID','r🤣😑','und\x20to\x20sen','\x20quản\x20lý','ogle.com/t'];_0x380d=function(){return _0x4e9ab9;};return _0x380d();}
+const { getStreamsFromAttachment, getTime } = global.utils;
+
+module.exports = {
+	config: {
+		name: "new",
+		version: "1.5",
+		author: "NTKhang",
+		countDown: 5,
+		role: 0,
+		description: {
+			vi: "Tạo và gửi thông báo đến các nhóm do bạn quản lý",
+			en: "Create and send notification to groups that you manage"
+		},
+		category: "box chat",
+		guide: {
+			vi: "   {pn} create <groupName>: Tạo một group noti (notification) mới với tên gọi <groupName>"
+				+ "\n   Ví dụ:\n    {pn} create TEAM1"
+				+ "\n\n   {pn} add <groupName>: thêm box chat hiện tại vào group noti <groupName> (bạn phải là quản trị viên của box chat này)"
+				+ "\n   Ví dụ:\n    {pn} add TEAM1"
+				+ "\n\n   {pn} list: hiển thị danh sách các group noti bạn đang quản lý"
+				+ "\n\n   {pn} info <groupName>: xem thông tin của group noti <groupName>"
+				+ "\n\n   {pn} delete: xóa box chat hiện tại khỏi group noti <groupName> (bạn phải là người tạo group noti này)"
+				+ "\n   Ví dụ:\n    {pn} delete TEAM1"
+				+ "\n\n   {pn} send <groupName> | <message>: gửi thông báo tới tất cả các nhóm trong group noti <groupName> (bạn phải là quản trị viên của những box đó)"
+				+ "\n   Ví dụ:\n    {pn} remove TEAM1"
+				+ "\n\n   {pn} remove <groupName>: xóa group noti <groupName> (bạn phải là người tạo group noti <groupName>)"
+				+ "\n   Ví dụ:\n    {pn} remove TEAM1",
+			en: "   {pn} create <groupName>: Create a new notification group with name <groupName>"
+				+ "\n   Example:\n    {pn} create TEAM1"
+				+ "\n\n   {pn} add <groupName>: add current box chat to notification group <groupName> (you must be admin of this box chat)"
+				+ "\n   Example:\n    {pn} add TEAM1"
+				+ "\n\n   {pn} list: show list of notification groups you are managing"
+				+ "\n\n   {pn} info <groupName>: view info of notification group <groupName>"
+				+ "\n\n   {pn} delete: remove current box chat from notification group <groupName> (you must be creator of this group)"
+				+ "\n   Example:\n    {pn} delete TEAM1"
+				+ "\n\n   {pn} send <groupName> | <message>: send notification to all groups in notification group <groupName> (you must be admin of those groups)"
+				+ "\n   Example:\n    {pn} remove TEAM1"
+				+ "\n\n   {pn} remove <groupName>: remove notification group <groupName> (you must be creator of notification group <groupName>)"
+				+ "\n   Example:\n    {pn} remove TEAM1"
+		}
+	},
+
+	langs: {
+		vi: {
+			missingGroupName: "Vui lòng nhập tên groupNoti",
+			groupNameExists: "Group send noti mang tên %1 đã được tạo trước đó bởi bạn rồi, vui lòng chọn tên khác",
+			createdGroup: "Đã tạo group send noti thành công:\n- Name: %1\n- ID: %2",
+			missingGroupNameToAdd: "Vui lòng nhập tên groupNoti bạn muốn thêm nhóm chat này vào",
+			groupNameNotExists: "Hiện tại bạn chưa tạo/quản lý group noti nào mang tên: %1",
+			notAdmin: "Bạn không phải là quản trị viên của nhóm chat này",
+			added: "Đã thêm nhóm chat hiện tại vào group noti: %1",
+			missingGroupNameToDelete: "Vui lòng nhập tên groupNoti bạn muốn xóa nhóm chat này khỏi danh sách",
+			notInGroup: "Hiện tại nhóm chat này chưa có trong group noti %1",
+			emptyList: "Hiện tại bạn chưa tạo/quản lý group noti nào",
+			showList: "Danh sách các group noti bạn đang quản lý:\nHiển thị theo định dạng:\n<Tên groupNoti> - <Số lượng nhóm chat trong groupNoti>\n%1",
+			deleted: "Đã xóa nhóm chat hiện tại khỏi group noti: %1",
+			failed: "Đã xảy ra lỗi khi gửi thông báo đến %1 nhóm chat: \n%2",
+			missingGroupNameToRemove: "Vui lòng nhập tên groupNoti bạn muốn xóa bỏ",
+			removed: "Đã xóa bỏ group noti: %1",
+			missingGroupNameToSend: "Vui lòng nhập tên groupNoti bạn muốn gủi tin nhắn",
+			groupIsEmpty: "Hiện tại group noti \"%1\" chưa có nhóm chat nào trong danh sách",
+			sending: "Đang gửi thông báo đến %1 nhóm chat",
+			success: "Đã gửi thông báo đến %1 nhóm chat trong group noti \"%2\" thành công",
+			notAdminOfGroup: "Bạn không phải là quản trị viên của nhóm này",
+			missingGroupNameToView: "Vui lòng nhập tên groupNoti bạn muốn xem thông tin",
+			groupInfo: "- Group Name: %1\n- ID: %2\n- Ngày tạo: %3\n%4 ",
+			groupInfoHasGroup: "- Gồm các nhóm chat: \n%1",
+			noGroup: "Hiện tại bạn chưa tạo/quản lý group noti nào"
+		},
+		en: {
+			missingGroupName: "Please enter groupNoti name",
+			groupNameExists: "Notification group with name %1 has been created by you before, please choose another name",
+			createdGroup: "Created notification group successfully:\n- Name: %1\n- ID: %2",
+			missingGroupNameToAdd: "Please enter groupNoti name you want to add this group chat to",
+			groupNameNotExists: "You have not created/manage any notification group with name: %1",
+			notAdmin: "You are not admin of this group chat",
+			added: "Added current group chat to notification group: %1",
+			missingGroupNameToDelete: "Please enter groupNoti name you want to delete this group chat from list",
+			notInGroup: "Current group chat is not in notification group %1",
+			emptyList: "You have not created/manage any notification group",
+			showList: "List of notification groups you are managing:\nShow in format:\n<Notification group name> - <Number of groups in notification group>\n%1",
+			deleted: "Deleted current group chat from notification group: %1",
+			failed: "Failed to send notification to %1 group chats: \n%2",
+			missingGroupNameToRemove: "Please enter groupNoti name you want to remove",
+			removed: "Removed notification group: %1",
+			missingGroupNameToSend: "Please enter groupNoti name you want to send message",
+			groupIsEmpty: "Notification group \"%1\" is empty",
+			sending: "Sending notification to %1 group chats",
+			success: "Sent notification to %1 group chats in notification group \"%2\" successfully",
+			notAdminOfGroup: "You are not admin of this group",
+			missingGroupNameToView: "Please enter groupNoti name you want to view info",
+			groupInfo: "- Group Name: %1\n - ID: %2\n - Created at: %3\n%4 ",
+			groupInfoHasGroup: "- Has group chats: \n%1",
+			noGroup: "You have not created/manage any notification group"
+		}
+	},
+
+	onStart: async function ({ message, event, args, usersData, threadsData, api, getLang, role }) {
+		const { threadID, senderID } = event;
+		const groupsSendNotiData = await usersData.get(senderID, 'data.groupsSendNoti', []);
+
+		switch (args[0]) {
+			case "create": {
+				const groupName = args.slice(1).join(' ');
+				const groupID = Date.now();
+				if (!groupName)
+					return message.reply(getLang('missingGroupName'));
+
+				const groupsSendNotiData = await usersData.get(senderID, 'data.groupsSendNoti', []);
+				if (groupsSendNotiData.some(item => item.groupName === groupName))
+					return message.reply(getLang('groupNameExists', groupName));
+
+				groupsSendNotiData.push({
+					groupName,
+					groupID,
+					threadIDs: []
+				});
+				await usersData.set(senderID, groupsSendNotiData, 'data.groupsSendNoti');
+				message.reply(getLang('createdGroup', groupName, groupID));
+				break;
+			}
+			case "add": {
+				const groupName = args.slice(1).join(' ');
+				if (!groupName)
+					return message.reply(getLang('missingGroupNameToAdd'));
+				const getGroup = (groupsSendNotiData || []).find(item => item.groupName == groupName);
+
+				if (!getGroup)
+					return message.reply(getLang('groupNameNotExists', groupName));
+
+				if (role < 1)
+					return message.reply(getLang('notAdmin'));
+
+				getGroup.threadIDs.push(threadID);
+				await usersData.set(senderID, groupsSendNotiData, 'data.groupsSendNoti');
+
+				message.reply(getLang('added', groupName));
+				break;
+			}
+			case "list": {
+				if (!groupsSendNotiData.length)
+					return message.reply(getLang('noGroup'));
+
+				const msg = groupsSendNotiData.reduce((acc, item) => {
+					acc += `+ ${item.groupName} - ${item.threadIDs.length}\n`;
+					return acc;
+				}, '');
+
+				message.reply(getLang('showList', msg));
+				break;
+			}
+			case "delete": {
+				const groupName = args.slice(1).join(' ');
+				if (!groupName)
+					return message.reply(getLang('missingGroupNameToDelete'));
+
+				const getGroup = (groupsSendNotiData || []).find(item => item.groupName == groupName);
+				if (!getGroup)
+					return message.reply(getLang('groupNameNotExists', groupName));
+
+				const findIndexThread = getGroup.threadIDs.findIndex(item => item == threadID);
+				if (findIndexThread == -1)
+					return message.reply(getLang('notInGroup', groupName));
+
+				getGroup.threadIDs.splice(findIndexThread, 1);
+				await usersData.set(senderID, groupsSendNotiData, 'data.groupsSendNoti');
+
+				message.reply(getLang('deleted', groupName));
+				break;
+			}
+			case "remove":
+			case "-r": {
+				const groupName = args.slice(1).join(' ');
+				if (!groupName)
+					return message.reply(getLang('missingGroupNameToRemove'));
+				const findIndex = (groupsSendNotiData.threadIDs || []).findIndex(item => item.groupName == groupName);
+
+				if (findIndex == -1)
+					return message.reply(getLang('groupNameNotExists', groupName));
+
+				groupsSendNotiData.splice(findIndex, 1);
+				await usersData.set(senderID, groupsSendNotiData, 'data.groupsSendNoti');
+
+				message.reply(getLang('removed', groupName));
+				break;
+			}
+			case "send": {
+				const groupName = args.slice(1).join(' ').split('|')[0].trim();
+				if (!groupName)
+					return message.reply(getLang('missingGroupNameToSend'));
+
+				const getGroup = (groupsSendNotiData || []).find(item => item.groupName == groupName);
+				if (!getGroup)
+					return message.reply(getLang('groupNameNotExists', groupName));
+				if (getGroup.threadIDs.length == 0)
+					return message.reply(getLang('groupIsEmpty', groupName));
+
+				const messageSend = args.slice(2).join(' ').split('|').slice(1).join(' ').trim();
+				const formSend = {
+					body: messageSend
+				};
+
+				if (event.attachments.length || event.attachments.messageReply?.attachments.length)
+					formSend.attachment = await getStreamsFromAttachment([...event.attachments, ...(event.messageReply?.attachments || [])].filter(item => ["photo", 'png', "animated_image", "video", "audio"].includes(item.type)));
+
+				const success = [];
+				const failed = [];
+				const pendings = [];
+
+				const { threadIDs } = getGroup;
+				const msgSend = message.reply(getLang('sending', groupName, threadIDs.length));
+				for (const tid of threadIDs) {
+					await new Promise((r) => setTimeout(r, 1000));
+					pendings.push(
+						new Promise(async (resolve, reject) => {
+							const { adminIDs, threadName } = await threadsData.get(tid);
+							if (!adminIDs.includes(senderID))
+								return reject({
+									error: 'PERMISSION_DENIED',
+									threadID: tid,
+									threadName
+								});
+							api.sendMessage(formSend, tid, (err) => {
+								if (err)
+									reject({
+										...err,
+										threadID: tid,
+										threadName
+									});
+								resolve({
+									threadID: tid,
+									threadName
+								});
+							});
+						})
+					);
+				}
+
+				for (const item of pendings) {
+					try {
+						await item;
+						success.push({
+							threadID: item.threadID,
+							threadName: item.threadName
+						});
+					}
+					catch (err) {
+						failed.push({
+							threadID: item.threadID,
+							threadName: item.threadName,
+							error: item.error
+						});
+					}
+				}
+				api.unsendMessage((await msgSend).messageID);
+				let msg = "";
+				if (success.length)
+					msg += `${getLang('success', success.length, groupName)}\n`;
+				if (failed.length)
+					msg += getLang('failed', failed.length,
+						failed.map(item => `\n- id: ${item.threadID}`
+							+ `\n- Name: ${item.threadName}`
+							+ `\n- Error: ${item.error == 'PERMISSION_DENIED' ?
+								getLang('notAdminOfGroup') :
+								''}`
+						).join('\n')
+					);
+				message.reply(msg);
+
+				break;
+			}
+			case "info": {
+				const groupName = args.slice(1).join(' ');
+				if (!groupName)
+					return message.reply(getLang('missingGroupNameToView'));
+
+				const getGroup = (groupsSendNotiData || []).find(item => item.groupName == groupName);
+				if (!getGroup)
+					return message.reply(getLang('groupNameNotExists', groupName));
+				const { threadIDs } = getGroup;
+
+				const allThreadData = await threadsData.getAll();
+
+				const msg = threadIDs.reduce((acc, tid) => {
+					const threadData = allThreadData.find(i => i.threadID == tid) || {};
+					acc += ` + ID: ${tid}\n + Name: ${threadData.threadName || 'null'}\n\n`;
+					return acc;
+				}, '');
+
+				message.reply(getLang('groupInfo', groupName, getGroup.groupID, getTime(getGroup.groupID, 'DD/MM/YYYY hh:mm:ss'), msg ? getLang('groupInfoHasGroup', msg) : getLang('groupIsEmpty', groupName)));
+				break;
+			}
+			default: {
+				return message.SyntaxError();
+			}
+		}
+	}
+};
