@@ -2,7 +2,7 @@ module.exports = {
   config: {
     name: "jummah",
     version: "1.0",
-    author: "★𝐌𝟗𝐇𝟒𝐌𝐌𝟒𝐃-𝐁𝟒𝐃𝟗𝐋★", // real modified by B4D9L-B9T-007
+    author: "MAHABUB RAHMAN", // real modified by B4D9L-B9T-007
     countDown: 5,
     role: 0,
     shortDescription: "no prefix",
